@@ -21,7 +21,7 @@ gulp.task("default", ["copy-html"], function () {
     return browserify({
         basedir: '.',
         debug: true,
-        entries: ['src/main.ts'],
+        entries: ['src/main.ts','src/additional.ts'],
         cache: {},
         packageCache: {}
     })
